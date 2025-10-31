@@ -13,6 +13,7 @@ import lumache
 import sphinx_wagtail_theme
 
 # -- Project information -----------------------------------------------------
+html_baseurl = 'https://github.com/Aaron299792/Sphinx-Test/'
 
 project = 'Lumache'
 copyright = '2025, Graziella'
@@ -61,3 +62,6 @@ exclude_patterns = []
 
 html_theme = 'sphinx_wagtail_theme'
 html_theme_path = [sphinx_wagtail_theme.get_html_theme_path()]
+html_show_sphinx = False
+
+
